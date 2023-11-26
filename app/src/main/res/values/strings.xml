@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">filmo</string>
+
+    <!--MainActivity.java-->
+    <string name="app_name_uppercase">F I L M O</string>
+    <string name="app_name_description">Create your own film reviews</string>
+    
+    <!--HomeActivity.java-->
+    <string name="search_hint">Search your film review</string>
+    
+    <string name="save">SAVE</string>
+    <string name="rate_film">Rate Film</string>
+
+    <string name="write_your_review">Write Your Review Here</string>
+</resources>

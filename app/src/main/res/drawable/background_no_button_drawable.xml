@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/custom_button_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!-- Pressed state background color -->
+            <solid android:color="@color/white" />
+            <!-- Stroke color and width for pressed state -->
+            <stroke
+                android:color="@color/green"
+                android:width="5dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Default state background color -->
+            <solid android:color="@color/white" />
+            <!-- Stroke color and width for default state -->
+            <stroke
+                android:color="@color/green"
+                android:width="10dp" />
+        </shape>
+    </item>
+</selector>
